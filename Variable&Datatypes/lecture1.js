@@ -58,7 +58,8 @@ Datatypes in JavaScript
  07- Symbol
 
  B) Non-Primitive Datatypes
- Objects: Collection of well defined values/datatypes Or key value pairs.
+    1) Arrays: Collection same type of data.
+    2) Objects: Collection of well defined values/datatypes Or key value pairs.
  Objects are categorized into Arrays and functions.
  e.g., 
  let const student = {
