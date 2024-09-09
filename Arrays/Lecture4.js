@@ -63,6 +63,44 @@ console.log('The sum of all numbers in the array is:', sum);
 */
 
 
+// (Q2)For a given array with prices of 5 items --> [ 250, 645, 300, 900, 50]
+// All items have an offer of 10% off on them. Change the array to store final price 
+// after applying offer.
+
+// Using for-of loop
+/*
+let items = [250, 645, 300, 900, 50];
+let i = 0;
+for (let val of items){
+    console.log(`The value at index ${i} = ${val}`);
+    let offer = val / 10 ;
+    items[i] = items[i] - offer;
+    console.log(`value after offer = ${items[i]}`);
+    i++;
+}
+*/
+
+// Or using for loop
+
+/*
+let items = [250, 645, 300, 900, 50];
+for(let i = 0; i < items.length; i++){
+    let offer = items[i] / 10;
+    items[i] -= offer;
+}
+console.log(items);
+*/
+
+
+// Array Methods
+
+// 01) push() adds value to end of an array -> foodItems.push("chips", buger);
+// 02) pop() delete vlaues from end of an array & returns value -> foodItems.push();
+// 03) toString() converts an array to string  
+// e.g., console.log(foodItems.toString());
+// 04) Concat method 
+
+
 
 
 
