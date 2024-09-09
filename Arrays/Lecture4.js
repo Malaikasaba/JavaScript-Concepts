@@ -92,14 +92,28 @@ console.log(items);
 */
 
 
-// Array Methods
+// Array Methods   -> all methods always starts with small letter
 
 // 01) push() adds value to end of an array -> foodItems.push("chips", buger);
 // 02) pop() delete vlaues from end of an array & returns value -> foodItems.push();
 // 03) toString() converts an array to string  
 // e.g., console.log(foodItems.toString());
-// 04) Concat method 
 
+// 04) Concat() Join multiple arrays and return result
+// e.g., final = first. concat(second, third);
+
+// 05) unshift add value to the start of an array
+// e.g, foodItems.unshift("chips", buger);
+
+// 05) shift delete value from  the start of an array
+// e.g, foodItems.shift("chips", buger);
+
+// 05) slice: returns a piece of an array
+// e.g, console.log(foodItems.slice(1,4));  last index will not be included
+
+// 06) splice: change original array(add, remove, replace)
+// syntax: splice(startindex,deletecount,newElement);
+//e.g, console.log(foodItems.splice(1,2,222,333));
 
 
 
