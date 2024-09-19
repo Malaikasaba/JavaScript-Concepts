@@ -1,14 +1,14 @@
 // Functions in JS
 // Functions are block of code that perform specific tasks/
-// can be invoked whenever needed.
+// can be invoked/called whenever needed.
 
 
 // Function Syntax
 /*
-function myFunction () {
+function functionName () {
  block of code
 }
-myFunction();
+functionName();
 
 */
 
@@ -28,7 +28,10 @@ myFunction ("I love JavaScript"); // argument
 // Function to calculate sum of 2 numbers
 
 function sum (a, b){
+    //local variables --> scope
 s = a + b;
 return
 }
-sum();
+sum(); 
+
+// function parameters are like local variables of function (block scope)
